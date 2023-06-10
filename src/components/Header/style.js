@@ -19,7 +19,7 @@ export const HeaderStyle = styled.header`
         width: 100vw;
         flex-direction: column;
         align-items: start;
-        padding: 1.125rem 1.875rem;
+        padding: 28px 1.875rem 1.125rem 1.875rem;
         background-color: #f2f2f2;
         gap: 1.0625rem;
     }  
@@ -50,8 +50,8 @@ export const InputStyle = styled.div`
 
         @media (max-width:767px) {
         position: absolute;
-            top: 1.25rem;
-            right: 1.875rem;
+            top: 1.75rem;
+            right: 2.5rem;
         }
         
         p {
@@ -115,7 +115,7 @@ export const InputStyle = styled.div`
         position: relative;
         display: flex;
         align-items: center;
-        padding: 0px 4.5rem 0px 15px;
+        padding: 0px 4.5rem 0px .9375rem;
         width: 87.32%;
         height: 60px;
         background: var(--color-white);
@@ -132,6 +132,7 @@ export const InputStyle = styled.div`
             border: 1px solid #ccc;
             border-radius: 5px;
             width: 100%;
+            padding: 0px 4.5rem 0px .9375rem;
         }
     }
 
