@@ -116,7 +116,7 @@ export const InputStyle = styled.div`
         display: flex;
         align-items: center;
         padding: 0px 4.5rem 0px .9375rem;
-        width: 87.32%;
+        width: 87%;
         height: 60px;
         background: var(--color-white);
         border: 2px solid var(--color-grey-400);
@@ -128,10 +128,9 @@ export const InputStyle = styled.div`
         line-height: 19px;
 
         @media (max-width: 764px) {
-            padding: 5px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            width: 100%;
+            width: 85%;
             padding: 0px 4.5rem 0px .9375rem;
         }
     }

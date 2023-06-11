@@ -4,6 +4,7 @@ export const ProductListStyle = styled.ul`
     display: flex;
     flex-direction: row;
     align-self: center;
+    align-items: center;
     width: 90vw;
     flex-wrap: wrap;
     row-gap: 3.5rem; 
@@ -13,6 +14,8 @@ export const ProductListStyle = styled.ul`
 
     @media (max-width: 764px) {
         display: flex;
+        width: 100vw;
+        padding: 0rem 1rem 0rem 1rem;
         flex-direction: row;
         overflow-x: auto;
         flex-wrap: nowrap;
