@@ -31,10 +31,15 @@ export default createGlobalStyle`
         transition: 0.2s linear;
     }
     
+    #root {
+        width: 100%;
+    }
+
     body {
         display: flex;
         justify-content: center;
         overflow-x: hidden;
+        overflow-y: scroll;
     }
 
     button, select, option {

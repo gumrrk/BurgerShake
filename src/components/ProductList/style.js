@@ -4,8 +4,7 @@ export const ProductListStyle = styled.ul`
     display: flex;
     flex-direction: row;
     align-self: center;
-    align-items: center;
-    max-width: 90vw;
+    width: 90vw;
     flex-wrap: wrap;
     row-gap: 3.5rem; 
     column-gap: 3.25rem;
