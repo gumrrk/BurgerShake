@@ -4,9 +4,12 @@ import Lupa from '../../assets/lupa.svg';
 import Cart from '../../assets/cart.svg';
 
 export const Header = ({ openModal, handleSearchChange, cartItemCount }) => {
+  const handleLogoClick = () => {
+    window.location.reload();
+  };
   return (
     <HeaderStyle>
-      <img className='logo' src={Logo} alt='Logotipo do site Burguer Kenzie' />
+      <img className='logo' src={Logo} alt='Logotipo do site Burguer Kenzie' onClick={handleLogoClick} />
       <InputStyle>
         <div className='cartDiv'>
           <p>{cartItemCount}</p>
