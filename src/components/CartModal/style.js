@@ -27,7 +27,7 @@ export const ModalBox = styled.div`
         padding: 20px 23px;
         gap: 18px;
         height: 220px;
-        overflow-y: auto;
+        overflow-y: scroll;
 
         .emptyMessage {
             position: absolute;
